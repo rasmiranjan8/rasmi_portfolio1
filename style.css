@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.slidebar{
+    background-color: rgb(13, 8, 40);
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.slidebar nav{
+    padding: 60px 30px;
+
+}
+
+.slidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.slidebar nav li a{
+    text-decoration: none;
+    color: rgb(253, 248, 254);
+
+}
+
+.slidebar nav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.main{
+    width: 90vw;
+    background-image: url(bg5.jpg);
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(222, 186, 229);
+}
+
+.infocontainer{
+    
+    height:65vh;
+    width: 80vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutme{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.devpic img{
+    width: 20vw;
+    border-radius: 30%;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.about{
+    font-size: 40px;
+    
+}
+
+.moreabout{
+    margin: 25px 0;
+}
+
+.btn button{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(13, 13, 59);
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.btn button:hover{
+    color: black;
+    background-color: white;
+}
+
+button{
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+#btnsubmit{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(13, 13, 59);
+    font-size: 20px;
+    margin: 25px 10px;
+    font-weight: bold;
+}
+
+#btnsubmit:hover{
+    color: black;
+    background-color: white;
+}
+
+.devpic img{
+    height: 55vh;
+}
+
+.devpic img:hover {
+    transform: scale(1.1);
+    transition: transform 2s ease;
+}
+
+.contactform{    
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+    padding: 100px 50px;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 71vh;
+}
+
+.contactform h1{    
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+    padding: 30px 0;
+
+}
+
+.contactform form div{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    padding: 3px;
+    margin: 6px 0;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+    
+}
+
+#form-check{
+    flex-direction: row;
+}
+  
+#form-check input{
+    width: 50px;
+    margin: 3px 0;
+}
+
+#aboutme{
+    height: 100vh;
+    width: 400vw;
+    margin: 0px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap wrap-reverse;
+    align-items: center;
+}
+
+.box{
+    width: 70vw;
+    height: 25vh;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 1.3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.heading{
+    text-align: center;
+}
+
+.skillcontainer{
+    
+    font-size: 25px;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill{
+    height: 10px;
+    width: 400px;
+    background-color: rgb(0, 13, 255);
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+.skill:hover{
+    transform: scale(1.1);
+}
+
+.skills{
+    margin: 50px;
+}
+#myskill{
+    margin: 10px;
+}
+#ht{
+    width: 360px;
+}
+#cs{
+    width: 280px;
+}
+#js{
+    width: 240px;
+}
+#py{
+    width: 270px;
+}
+#cc{
+    width: 360px;
+}
+
+.contact {
+    display: inline;
+    flex-direction: column;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 10px;
+    top: 550px;
+    right: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.contact:hover {
+    border: 3px solid black;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 50
+}
+
+.material-symbols-outlined {
+    color: black;
+    height: 20px;
+}
+
+.call {
+    color: black;
+}
+
+.email {
+    color: black;
+}
+
+.work {
+    position: absolute;
+    left: 330px;
+    top: 600px;
+    font-size: 15px;
+    width: 900px;
+    letter-spacing: 7px;
+    font-family: 'Play', sans-serif;
+    word-spacing: 10px;
+}
+
+.work h1 {
+    color: #351447;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    
+}
